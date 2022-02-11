@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario ING</title>
+</head>
+<body>
+    <main>
+        <h1>Accede a tu Área Clientes</h1>
+    <form action="ing.php">
+        <p>
+            <h3><b>Elige tu documento</b></h3> 
+            <input type="radio" name="dni" id="dni" value="dni">DNI o Tarjeta de residencia
+            <br>
+            <br>
+            <section class="pasaporte">
+            <input type="radio" name="dni" id="pasaporte" value="pasaporte"> Pasaporte
+            </section>
+        </p>
+        <p>
+            <b>Número de documento</b>
+        <br>
+            <input class="dni" type="text" name="numero" id="numero" placeholder="DNI o Tarjeta de residencia">
+        </p>
+        <p>
+            <b>Fecha de nacimiento</b>
+        <br>
+            <input class="fecha" type="date" name="fecha" id="fecha">
+        <p>
+            <input type="checkbox" name="recordar" id="recordar"> Recordar
+        </p>
+
+        <p>
+            <input class="enviar" type="submit" value="Entrar">
+
+        </p>
+    </form>
+        <a href="https://ing.ingdirect.es/pfm/#login-dnie">Acceder con DNI electrónico</a>
+        <br>
+        <br>
+        <a href="https://ing.ingdirect.es/pfm/#login/security-information">Más información sobre seguridad</a>
+        <br>
+        <br>
+        <hr>
+        <h2>Empieza creando tu usuario</h2>
+        <form action="usuario.php">
+            <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Nombre (como sale en el DNI)">
+            <br>
+            <br>
+            <input class="apellido1" type="text" name="apellido1" id="apellido1" placeholder="1º apellido (como sale en el DNI)">
+            <input class="apellido2" type="text" name="apellido2" id="apellido2" placeholder="2º apellido (como sale en el DNI)">
+            <br>
+            <br>
+            <input class="doc" type="text" name="doc" id="doc" placeholder="DNI/NIF/CER.AEAT">
+            <input class="num" type="text" name="num" id="num" placeholder="Número de documento">  
+            <br>
+            <br>
+            <input class="movil" type="tel" name="movil" id="movil" placeholder="Móvil">
+            <input class="correo1" type="email" name="correo" id="correo" placeholder="Email">
+            <br>
+            <br>
+            <input class="crear" type="submit" value="Crear usuario">
+        </form>
+        <br>
+        <hr>
+        <h2>¿Eres nuevo?</h2>
+            <p>Regístrate para guardar tu información y hacer tus pedidos de forma más facil y rápida</p>
+            
+        <form action="nuevo.php">
+            <p>
+                <b>Email</b>
+            <br>
+                <input class="correo2" type="email" name="correo2" id="correo2" placeholder="Introduce tu email">
+            </p>
+        
+            <p>
+                <b>Teléfono</b>
+                <br>
+                <input class="movil2" type="tel" name="movil2" id="movil 2" placeholder="Tú teléfono">
+            <br>    
+            <p>
+                <b>Contraseña</b>
+                <br>
+                <input class="contraseña" type="password" name="password" id="password" placeholder="Introduce tu contraseña">
+            </p>
+            
+            <p>
+                <b>Confirma tu contraseña</b>
+                <br>
+                <input class="contraseña2" type="password" name="password2" id="password2" placeholder="Confirmar contraseña">
+            </p>
+            <br>
+            <input type="checkbox" name="politica" id="politica"> He leído y acepto <a href="https://www.pizzahut.es/info/aviso-legal">Política de privacidad</a> 
+            <br>
+            <input type="checkbox" name="si" id="si"> Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.
+            <br>
+            <br>
+            <input class="cuenta" type="submit" value="Crea tu cuenta">
+
+
+        </form>
+
+        
+
+
+
+    </main>
+    
+</body>
+</html>

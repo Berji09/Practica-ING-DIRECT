@@ -1,0 +1,103 @@
+body{
+    background-color: white
+}
+
+main{
+    text-align: center;
+}
+
+.dni{
+    width: 230px;
+    height: 25px;
+}
+
+.fecha{
+    width: 230px;
+    height: 25px;
+}
+
+.enviar{
+    width: 220px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    font-size: medium
+}
+
+.crear{
+    width: 220px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    font-size: medium
+}
+
+.cuenta{
+    width: 220px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border-color: green;
+    font-size: medium;
+}
+.nombre{
+    width: 580px;
+    height: 35px;
+}
+
+.apellido1{
+    width: 280px;
+    height: 35px;
+}
+
+.apellido2{
+    width: 280px;
+    height: 35px;
+}
+
+.doc{
+    width: 280px;
+    height: 35px; 
+}
+
+.num{
+    width: 280px;
+    height: 35px;
+}
+
+.movil{
+    width: 280px;
+    height: 35px;
+}
+
+.correo1{
+    width: 280px;
+    height: 35px;
+}
+
+.correo2{
+    width: 250px;
+    height: 35px;
+}
+
+.movil2{
+    width: 250px;
+    height: 35px;
+}
+
+.contraseña{
+    width: 250px;
+    height: 35px;
+}
+
+.contraseña2{
+    width: 250px;
+    height: 35px;
+}
+
+section.pasaporte{
+    position: relative;
+    right: 55px;
+}
